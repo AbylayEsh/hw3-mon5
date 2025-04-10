@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactBootstrap from "./ui-libraries/react-bootstrap/ReactBootstrap";
+import MaterialUI from "./ui-libraries/material-ui/MaterialUI";
+import AntDesign from "./ui-libraries/ant-design/AntDesign";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ReactBootstrap/>
+        <MaterialUI/>
+        <AntDesign/>
     </div>
   );
 }
