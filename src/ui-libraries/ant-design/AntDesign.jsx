@@ -70,6 +70,7 @@ const AntDesign = () => {
 
     return (
         <div>
+            <h1>Ant Design</h1>
             <Table dataSource={data}>
                 <ColumnGroup title="Library">
                     <Column title="Library" dataIndex="library" key="library" />
